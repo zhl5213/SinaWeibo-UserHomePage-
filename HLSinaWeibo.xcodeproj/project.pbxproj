@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13205E89E66BD77C3F7058C0 /* Pods_HLSinaWeibo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156B20879044D2C3356B8C48 /* Pods_HLSinaWeibo.framework */; };
 		8F1F87AA2050C71200C0584A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F87A92050C71200C0584A /* AppDelegate.swift */; };
-		8F1F87AC2050C71200C0584A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F87AB2050C71200C0584A /* ViewController.swift */; };
 		8F1F87AF2050C71200C0584A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1F87AD2050C71200C0584A /* Main.storyboard */; };
 		8F1F87B12050C71200C0584A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F1F87B02050C71200C0584A /* Assets.xcassets */; };
 		8F1F87B42050C71200C0584A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1F87B22050C71200C0584A /* LaunchScreen.storyboard */; };
 		8F1F87BF2050C71200C0584A /* HLSinaWeiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F87BE2050C71200C0584A /* HLSinaWeiboTests.swift */; };
 		8F1F87CA2050C71200C0584A /* HLSinaWeiboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F87C92050C71200C0584A /* HLSinaWeiboUITests.swift */; };
+		8F1F87D82050C7C900C0584A /* HLPagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F87D72050C7C900C0584A /* HLPagingViewController.swift */; };
+		8F1F87E62050D2B600C0584A /* HLProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F87E52050D2B600C0584A /* HLProfileTableViewController.swift */; };
+		8F1F87E82050D41D00C0584A /* HLWeiboTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F87E72050D41D00C0584A /* HLWeiboTableViewController.swift */; };
+		8F1F87EA2050D7E900C0584A /* HLPagingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F87E92050D7E900C0584A /* HLPagingHeaderView.swift */; };
+		8F1F87ED2051626A00C0584A /* HLNewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F87EC2051626A00C0584A /* HLNewsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04E82E48653306FA2394D411 /* Pods-HLSinaWeibo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLSinaWeibo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLSinaWeibo/Pods-HLSinaWeibo.release.xcconfig"; sourceTree = "<group>"; };
+		156B20879044D2C3356B8C48 /* Pods_HLSinaWeibo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLSinaWeibo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F1F87A62050C71200C0584A /* HLSinaWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLSinaWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F1F87A92050C71200C0584A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8F1F87AB2050C71200C0584A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8F1F87AE2050C71200C0584A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F1F87B02050C71200C0584A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F1F87B32050C71200C0584A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,13 @@
 		8F1F87C52050C71200C0584A /* HLSinaWeiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLSinaWeiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F1F87C92050C71200C0584A /* HLSinaWeiboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLSinaWeiboUITests.swift; sourceTree = "<group>"; };
 		8F1F87CB2050C71200C0584A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F1F87D72050C7C900C0584A /* HLPagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLPagingViewController.swift; sourceTree = "<group>"; };
+		8F1F87E52050D2B600C0584A /* HLProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLProfileTableViewController.swift; sourceTree = "<group>"; };
+		8F1F87E72050D41D00C0584A /* HLWeiboTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLWeiboTableViewController.swift; sourceTree = "<group>"; };
+		8F1F87E92050D7E900C0584A /* HLPagingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLPagingHeaderView.swift; sourceTree = "<group>"; };
+		8F1F87EB20511C0B00C0584A /* HLSinaWeibo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HLSinaWeibo-Bridging-Header.h"; sourceTree = "<group>"; };
+		8F1F87EC2051626A00C0584A /* HLNewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLNewsTableViewController.swift; sourceTree = "<group>"; };
+		E7BCB77EB07ACABD84A510FA /* Pods-HLSinaWeibo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLSinaWeibo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLSinaWeibo/Pods-HLSinaWeibo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13205E89E66BD77C3F7058C0 /* Pods_HLSinaWeibo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +95,8 @@
 				8F1F87BD2050C71200C0584A /* HLSinaWeiboTests */,
 				8F1F87C82050C71200C0584A /* HLSinaWeiboUITests */,
 				8F1F87A72050C71200C0584A /* Products */,
+				A3E4D513D5D45C572B53230A /* Pods */,
+				E679A895DC8D0B7C2EED969B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +113,9 @@
 		8F1F87A82050C71200C0584A /* HLSinaWeibo */ = {
 			isa = PBXGroup;
 			children = (
+				8F1F87EB20511C0B00C0584A /* HLSinaWeibo-Bridging-Header.h */,
+				8F1F87DB2050CA3E00C0584A /* SinaWeiboUserSpace */,
 				8F1F87A92050C71200C0584A /* AppDelegate.swift */,
-				8F1F87AB2050C71200C0584A /* ViewController.swift */,
 				8F1F87AD2050C71200C0584A /* Main.storyboard */,
 				8F1F87B02050C71200C0584A /* Assets.xcassets */,
 				8F1F87B22050C71200C0584A /* LaunchScreen.storyboard */,
@@ -125,6 +142,59 @@
 			path = HLSinaWeiboUITests;
 			sourceTree = "<group>";
 		};
+		8F1F87DB2050CA3E00C0584A /* SinaWeiboUserSpace */ = {
+			isa = PBXGroup;
+			children = (
+				8F1F87E22050CCA600C0584A /* Controller */,
+				8F1F87E42050CCA600C0584A /* Model */,
+				8F1F87E32050CCA600C0584A /* View */,
+			);
+			path = SinaWeiboUserSpace;
+			sourceTree = "<group>";
+		};
+		8F1F87E22050CCA600C0584A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F1F87EC2051626A00C0584A /* HLNewsTableViewController.swift */,
+				8F1F87E52050D2B600C0584A /* HLProfileTableViewController.swift */,
+				8F1F87E72050D41D00C0584A /* HLWeiboTableViewController.swift */,
+				8F1F87D72050C7C900C0584A /* HLPagingViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8F1F87E32050CCA600C0584A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F1F87E92050D7E900C0584A /* HLPagingHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F1F87E42050CCA600C0584A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A3E4D513D5D45C572B53230A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7BCB77EB07ACABD84A510FA /* Pods-HLSinaWeibo.debug.xcconfig */,
+				04E82E48653306FA2394D411 /* Pods-HLSinaWeibo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E679A895DC8D0B7C2EED969B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				156B20879044D2C3356B8C48 /* Pods_HLSinaWeibo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F1F87CE2050C71200C0584A /* Build configuration list for PBXNativeTarget "HLSinaWeibo" */;
 			buildPhases = (
+				AA90A8E02E564C932844D7B7 /* [CP] Check Pods Manifest.lock */,
 				8F1F87A22050C71200C0584A /* Sources */,
 				8F1F87A32050C71200C0584A /* Frameworks */,
 				8F1F87A42050C71200C0584A /* Resources */,
+				F960C688CB8E3474DD6119DF /* [CP] Embed Pods Frameworks */,
+				B3F5DB0B210A1F0EF4407BC1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,6 +260,7 @@
 		8F1F879E2050C71200C0584A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HL;
 				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = Dianzhi;
@@ -254,13 +328,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AA90A8E02E564C932844D7B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HLSinaWeibo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3F5DB0B210A1F0EF4407BC1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLSinaWeibo/Pods-HLSinaWeibo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F960C688CB8E3474DD6119DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HLSinaWeibo/Pods-HLSinaWeibo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLSinaWeibo/Pods-HLSinaWeibo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8F1F87A22050C71200C0584A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F1F87AC2050C71200C0584A /* ViewController.swift in Sources */,
+				8F1F87D82050C7C900C0584A /* HLPagingViewController.swift in Sources */,
+				8F1F87EA2050D7E900C0584A /* HLPagingHeaderView.swift in Sources */,
+				8F1F87ED2051626A00C0584A /* HLNewsTableViewController.swift in Sources */,
+				8F1F87E62050D2B600C0584A /* HLProfileTableViewController.swift in Sources */,
 				8F1F87AA2050C71200C0584A /* AppDelegate.swift in Sources */,
+				8F1F87E82050D41D00C0584A /* HLWeiboTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +560,7 @@
 		};
 		8F1F87CF2050C71200C0584A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7BCB77EB07ACABD84A510FA /* Pods-HLSinaWeibo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -432,6 +569,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HuilinZhu.DianZhi.Com.HLSinaWeibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Applications/我的项目/MainProject/HLSinaWeibo/HLSinaWeibo/HLSinaWeibo-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,6 +577,7 @@
 		};
 		8F1F87D02050C71200C0584A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04E82E48653306FA2394D411 /* Pods-HLSinaWeibo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +586,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HuilinZhu.DianZhi.Com.HLSinaWeibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Applications/我的项目/MainProject/HLSinaWeibo/HLSinaWeibo/HLSinaWeibo-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

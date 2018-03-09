@@ -1,0 +1,18 @@
+PODS:
+  - Masonry (1.0.2)
+  - MJExtension (3.0.13)
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - Masonry (~> 1.0.2)
+  - MJExtension (~> 3.0.13)
+  - SnapKit
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: a955402e6f058cac51f3e21395e4b1fdb2ae8224
+
+COCOAPODS: 1.3.1
